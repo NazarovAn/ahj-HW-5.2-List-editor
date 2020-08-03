@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div id="list-container">
+    <div class="header-box">
+      <div class="header">Товары</div>
+      <div class="add-button">+</div>
+    </div>
+    <div class="list-box">
+      <div class="list-headers">
+        <div class="item-name">Название</div>
+        <div class="item-price">Стоимость</div>
+        <div class="item-actions">Действия</div>
+      </div>
+      <div class="list">
+      </div>
+    </div>
+  </div>
+
+  <form action="#" id="form-container" class="hidden">
+    <label for="form-name" class="form-item">Название</label>
+    <input type="text" id="form-name" name="form-name" class="form-item">
+    <label for="form-price" class="form-item">Стоимость</label>
+    <input type="form-price" id="form-price" name="form-price" class="form-item">
+    <div id="form-buttons-box" class="form-item"> 
+      <a href="#" id="save-button" class="form-button">Сохранить</a>
+      <a href="#" id="cancel-button" class="form-button">Отмена</a>
+    </div>
+  </form>
+
+  <div id="confirm-container" class="hidden">
+    <div id="confirm-header"><span>Удалить товар?</span></div>
+    <div id="confirm-buttons-box">
+      <a href="#" id="confirm-delete" class="confirm-button">Да</a>
+      <a href="#" id="confirm-cancel" class="confirm-button">Нет</a>
+    </div>
+  </div>
+
+</body>
+</html>
